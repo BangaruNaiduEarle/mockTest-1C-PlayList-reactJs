@@ -1,0 +1,80 @@
+.mainMusicPage {
+  height: 100vh;
+}
+
+.singerBanner {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  padding: 30px;
+}
+
+.singerName {
+  font-family: 'Roboto';
+  font-size: 34px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.singer {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+.musicListContainer {
+  background-color: #152850;
+  padding: 20px;
+}
+
+.playListSearchContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.songsPlaylist {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  padding: 6px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  justify-content: space-between;
+}
+
+.search {
+  color: #ffffff;
+}
+
+.searchInput {
+  background-color: #152850;
+  border: 0px solid #152850;
+  color: #ffffff;
+}
+
+.unOrderList {
+  padding-left: 0px;
+  height: 40vh;
+  overflow-y: auto;
+}
+
+.noSongsFound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  height: 40vh;
+}
